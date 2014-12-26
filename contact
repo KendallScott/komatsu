@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Komatsu Architecture</title>
+        <link rel="stylesheet" href=" //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    </head>
+    <body role="document">
+    <div class="container" id="main">
+    <div class="container" id="main">
+        <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header navbar-left">
+                    <button type="button" class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                    <a href="home"><img class="logo" src="http://www.komatsu-inc.com/wp-content/uploads/2012/07/Komatsu-logo.jpg"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="menu">
+                    <ul class="nav navbar-nav">
+		<li><a href="aboutus">About Us</a></li>
+		<li><a href="services">Services</a></li>
+		<li><a href="portfolio">Portfolio</a></li>
+		<li class="active"><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+<p class="officeaddress">
+Corporate Office</br></br>
+
+Address:</br>
+3880 Hulen Street</br>
+Suite 300</br>
+Fort Worth, Texas 76107</br>
+
+ 
+
+Phone: (817) 332-1914</br>
+Toll-Free: (877) 556-6287</br>
+Fax: (817) 877-4754</br>
+E-mail: </br>
+komatsu@komatsu-inc.com</br></br>
+
+Employment:</br>
+ebenson@komatsu-inc.com</br>
+</p>
+<iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3880+hulen+street,+fort+worth,+texas+76107&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=51.841773,78.662109&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=3880+Hulen+St,+Fort+Worth,+Tarrant,+Texas+76107&amp;t=m&amp;z=14&amp;ll=32.722162,-97.386928&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="425" height="350"></iframe>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Contact us</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contactname">Name</label>  
+  <div class="col-md-5">
+  <input id="contactname" name="contactname" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contactsubject">Subject</label>  
+  <div class="col-md-5">
+  <input id="contactsubject" name="contactsubject" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contactsubject">Subject</label>  
+  <div class="col-md-5">
+  <input id="contactsubject" name="contactsubject" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contactmessage">Message</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="contactmessage" name="contactmessage"></textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+</div>
+<?php
+require 'footer.php';
+?>
+</body>
+</html>
