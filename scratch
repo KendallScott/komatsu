@@ -1,0 +1,6 @@
+            ! –– <div class="col-md-6 offset-2">
+                <iframe height="500" width="100%" frameborder="no" src="https://kindledsparks.shinyapps.io/rshiny/"> </iframe>
+            </div>
+            <div class="col-md-6 offset-2">
+                <iframe height="500" width="100%" frameborder="no" src="https://kindledsparks.shinyapps.io/RShiny2/"></iframe> 
+         </div>
